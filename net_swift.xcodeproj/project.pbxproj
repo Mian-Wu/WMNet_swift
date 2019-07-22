@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		187D1F0222E5AB5900285185 /* net_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D1F0122E5AB5900285185 /* net_swiftTests.swift */; };
 		2A8864E9C1CA6B31C9F3668A /* Pods_net_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B5BF5A17A23C42BB6ADBEB /* Pods_net_swift.framework */; };
 		BA4DB71922A4F85F00D63D90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4DB71822A4F85F00D63D90 /* AppDelegate.swift */; };
 		BA4DB71B22A4F85F00D63D90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4DB71A22A4F85F00D63D90 /* ViewController.swift */; };
@@ -18,7 +19,20 @@
 		BA4DB73022A4FA1000D63D90 /* WMDataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4DB72D22A4FA1000D63D90 /* WMDataCenter.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		187D1F0422E5AB5900285185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA4DB70D22A4F85F00D63D90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA4DB71422A4F85F00D63D90;
+			remoteInfo = net_swift;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		187D1EFF22E5AB5900285185 /* net_swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = net_swiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187D1F0122E5AB5900285185 /* net_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = net_swiftTests.swift; sourceTree = "<group>"; };
+		187D1F0322E5AB5900285185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46B5BF5A17A23C42BB6ADBEB /* Pods_net_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_net_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4DB71522A4F85F00D63D90 /* net_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = net_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4DB71822A4F85F00D63D90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +49,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		187D1EFC22E5AB5900285185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BA4DB71222A4F85F00D63D90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -46,6 +67,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		187D1F0022E5AB5900285185 /* net_swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				187D1F0122E5AB5900285185 /* net_swiftTests.swift */,
+				187D1F0322E5AB5900285185 /* Info.plist */,
+			);
+			path = net_swiftTests;
+			sourceTree = "<group>";
+		};
 		49A1BE595AC8885BBAA365C8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				BA4DB71722A4F85F00D63D90 /* net_swift */,
+				187D1F0022E5AB5900285185 /* net_swiftTests */,
 				BA4DB71622A4F85F00D63D90 /* Products */,
 				49A1BE595AC8885BBAA365C8 /* Pods */,
 				789D3FDFDC62F39D8069A222 /* Frameworks */,
@@ -77,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				BA4DB71522A4F85F00D63D90 /* net_swift.app */,
+				187D1EFF22E5AB5900285185 /* net_swiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +140,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		187D1EFE22E5AB5900285185 /* net_swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187D1F0822E5AB5900285185 /* Build configuration list for PBXNativeTarget "net_swiftTests" */;
+			buildPhases = (
+				187D1EFB22E5AB5900285185 /* Sources */,
+				187D1EFC22E5AB5900285185 /* Frameworks */,
+				187D1EFD22E5AB5900285185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187D1F0522E5AB5900285185 /* PBXTargetDependency */,
+			);
+			name = net_swiftTests;
+			productName = net_swiftTests;
+			productReference = 187D1EFF22E5AB5900285185 /* net_swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		BA4DB71422A4F85F00D63D90 /* net_swift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA4DB72722A4F89500D63D90 /* Build configuration list for PBXNativeTarget "net_swift" */;
@@ -137,6 +187,10 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = wumian;
 				TargetAttributes = {
+					187D1EFE22E5AB5900285185 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = BA4DB71422A4F85F00D63D90;
+					};
 					BA4DB71422A4F85F00D63D90 = {
 						CreatedOnToolsVersion = 10.2;
 					};
@@ -156,11 +210,19 @@
 			projectRoot = "";
 			targets = (
 				BA4DB71422A4F85F00D63D90 /* net_swift */,
+				187D1EFE22E5AB5900285185 /* net_swiftTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		187D1EFD22E5AB5900285185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BA4DB71322A4F85F00D63D90 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -216,6 +278,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		187D1EFB22E5AB5900285185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187D1F0222E5AB5900285185 /* net_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BA4DB71122A4F85F00D63D90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -229,6 +299,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187D1F0522E5AB5900285185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA4DB71422A4F85F00D63D90 /* net_swift */;
+			targetProxy = 187D1F0422E5AB5900285185 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BA4DB71C22A4F85F00D63D90 /* Main.storyboard */ = {
@@ -250,6 +328,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		187D1F0622E5AB5900285185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NC9PW5X78;
+				INFOPLIST_FILE = net_swiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wumian.com.net-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/net_swift.app/net_swift";
+			};
+			name = Debug;
+		};
+		187D1F0722E5AB5900285185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NC9PW5X78;
+				INFOPLIST_FILE = net_swiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wumian.com.net-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/net_swift.app/net_swift";
+			};
+			name = Release;
+		};
 		BA4DB72522A4F89500D63D90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -409,6 +527,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		187D1F0822E5AB5900285185 /* Build configuration list for PBXNativeTarget "net_swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187D1F0622E5AB5900285185 /* Debug */,
+				187D1F0722E5AB5900285185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BA4DB71022A4F85F00D63D90 /* Build configuration list for PBXProject "net_swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
